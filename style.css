@@ -272,7 +272,7 @@ section .title::after {
 }
 .services .title::after {
   background: #111;
-  content: "what i provide";
+  content: "what I provide";
 }
 
 .services .serv-content .card {
@@ -358,8 +358,9 @@ section .title::after {
   background: white;
 }
 .contact .contact-content .column {
-  width: calc(50%-30px);
+  margin: auto;
 }
+
 .contact .contact-content .text {
   font-size: 20px;
   font-weight: 600;
