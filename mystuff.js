@@ -15,6 +15,12 @@ $(document).ready(function () {
     }
   });
 
+      // toggle menu/navbar script
+      $('.menu-btn').click(function(){
+        $('.navbar .menu').toggleClass("active");
+        $('.menu-btn i').toggleClass("active");
+    });
+
   // slide-up script
   $(".scroll-up-btn").click(function () {
     $("html").animate({ scrollTop: 0 });
